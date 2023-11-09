@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 #tb-form {
     background-image: linear-gradient(to bottom right, #3d9935, #116442);
     padding: 15px 0;
@@ -10,25 +14,43 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 20px;
 }
-
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
 tbody{
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
 }
-
 tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
-
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
 .tables {
     border-bottom:  solid 5px #d0f7d2;
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
-
 .tables table {
     width: 100%;
     border: solid 1px #19334a;
@@ -42,7 +64,6 @@ tr {
     padding: 5px 0;
     text-align: center;
 }
-
 form {
     width: 90%;
     max-width: 600px;
@@ -80,4 +101,20 @@ form {
 }
 .form button:hover {
     background-color: #382b63;
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 0 10px 15px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .familia-list li{
+        width: 100%;
+    }
 }
