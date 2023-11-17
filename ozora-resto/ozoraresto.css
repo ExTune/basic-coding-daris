@@ -5,7 +5,72 @@
     background-color: #f9f2d3;
 }
 
-#wrapped {
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+}
+
+.wrapped {
     position: absolute;
-    
-} 
+    left: 50%;
+    align-items: center;
+    display: flex;
+    background-attachment: scroll;
+}
+
+.backgrounddasar {
+    margin: 0;
+}
+
+
+.buttonhitsumabushi {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.buttonhitsumabushi:hover {background-color: #ffffff;}
+.buttonhitsumabushi:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonkare {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.buttonkare:hover {background-color: #ffffff;}
+.buttonkare:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.buttonramen {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.buttonramen:hover {background-color: #ffffff;}
+.buttonramen:active {
+    background-color: #ffffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
