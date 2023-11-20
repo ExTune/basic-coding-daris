@@ -55,6 +55,31 @@ body {
     top: -395px;
     right: -10px;
 }
+.fotohitsumabushijudul{
+    position: relative;
+    top: -90px;
+    right: 10px;
+}
+.fotokarejudul {
+    position: relative;
+    top: -90px;
+    left: 50px;
+}
+.fotoramenjudul {
+    position: relative;
+    top: -90px;
+    left: 100px;
+}
+
+
+.mizuhiki {
+    position: relative;
+    bottom: 50px;
+}
+.tigamenujudul {
+    position: relative;
+    left: 60px;
+}
 
 .buttonhitsumabushi {
     padding: 15px 25px;
@@ -66,9 +91,9 @@ body {
     border: none;
     border-radius: 15px;
 }
-.buttonhitsumabushi:hover {background-color: #ffffff;}
+.buttonhitsumabushi:hover {background-color: #fff;}
 .buttonhitsumabushi:active {
-    background-color: #ffffff;
+    background-color: transparent;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -83,9 +108,9 @@ body {
     border: none;
     border-radius: 15px;
 }
-.buttonkare:hover {background-color: #ffffff;}
+.buttonkare:hover {background-color: #fff;}
 .buttonkare:active {
-    background-color: #ffffff;
+    background-color: transparent;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -100,9 +125,23 @@ body {
     border: none;
     border-radius: 15px;
 }
-.buttonramen:hover {background-color: #ffffff;}
+.buttonramen:hover {background-color: #fff;}
 .buttonramen:active {
-    background-color: #ffffff;
+    background-color: transparent;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.tambang1 {
+    position: relative;
+    bottom: 1280px;
+}
+.backgroundmise {
+    position: relative;
+    top: 40px;
+}
+.tambang2 {
+    position: relative;
+    top: 20px;
+}
+
