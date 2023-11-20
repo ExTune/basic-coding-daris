@@ -1,28 +1,60 @@
-* {
+
+body {
     margin: 0;
     padding: 0;
+    height: 100vh;
+    display: grid;
     box-sizing: border-box;
     background-color: #f9f2d3;
 }
 
-body {
-    margin: 0;
-    height: 100vh;
-    display: grid;
+.top {
+    height: 3000px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/img/d3/background.png);
 }
-
-.wrapped {
-    position: absolute;
-    left: 50%;
-    align-items: center;
-    display: flex;
-    background-attachment: scroll;
+.omochi1 {
+    position: relative;
+    top: -125px;
+    left: 240px;   
 }
-
-.backgrounddasar {
-    margin: 0;
+.omochi2 {
+    position: relative;
+    top: -110px;
+    left: 600px;
 }
-
+.daunkiriatas {
+    position: relative;
+    top: -312px;
+    left: -104px;
+}
+.daunkiribawah {
+    position: relative;
+    top: -109px;
+    left: -284px;
+}
+.daunkananatas {
+    position: relative;
+    top: -298px;
+    left: 335px;
+}
+.daunkananbawas {
+    position: relative;
+    top: -90px;
+    left: 146px;
+}
+.kadomatsu1 {
+    position: relative;
+    top: -180px;
+    right: -20px;
+}
+.kadomatsu2 {
+    position: relative;
+    top: -395px;
+    right: -10px;
+}
 
 .buttonhitsumabushi {
     padding: 15px 25px;
