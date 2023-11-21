@@ -82,6 +82,7 @@ body {
 }
 
 .buttonhitsumabushi {
+    position: relative;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -99,6 +100,7 @@ body {
 }
 
 .buttonkare {
+    position: relative;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -116,6 +118,7 @@ body {
 }
 
 .buttonramen {
+    position: relative;
     padding: 15px 25px;
     font-size: 24px;
     text-align: center;
@@ -144,4 +147,3 @@ body {
     position: relative;
     top: 20px;
 }
-

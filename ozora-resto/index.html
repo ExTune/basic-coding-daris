@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Warung Jepara (Jepang Utara)</title>
     <link href="ozoraresto.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
-<body id="ozoraresto">
+<body id="ozoraresto" data-spy="scroll" data-target=".navbar" data-offset="50">
     <div class="top">
         <img src="/img/d3/お正月限定メニュー！  .png" class="judulatas">
         <img src="/img/d3/omochi1.png" class="omochi1">
@@ -23,20 +24,30 @@
         <img src="/img/d3/fotoramenjudul.png" class="fotoramenjudul">
         <img src="/img/d3/mizuhiki.png" class="mizuhiki">
         <img src="/img/d3/3menujudul.png" class="tigamenujudul">
-        <div class="menubutton">
-            <img src="/img/d3/buttonhitsumabushi.png" class="buttonhitsumabushi">
-            <img src="/img/d3/buttonkare.png" class="buttonkare">
-            <img src="/img/d3/buttonramen.png" class="buttonramen">
-        </div> 
+        <nav class="navbar navbar-inverse navbar fixed-top">
+            <div class="menubutton">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        <img src="/img/d3/buttonhitsumabushi.png" class="buttonhitsumabushi">
+                        <img src="/img/d3/buttonkare.png" class="buttonkare">
+                        <img src="/img/d3/buttonramen.png" class="buttonramen">
+                    </button>
+                </div>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <img src="/img/d3/hitsumabushi.png" class="hitsumabushi">
+                <img src="/img/d3/kare.png" class="kare">
+                <img src="/img/d3/ramen.png" class="ramen">
+            </div>
+        </nav>
+        <div>
+            <img src="/img/d3/fotohitsumabushi.png" class="fotohitsumabushi">
+            <img src="/img/fotokare.png" class="fotokare">
+            <img src="/img/d3/fotoramen.png" class="fotoramen">
+        </div>
         <img src="/img/d3/backgroundmise.png" class="backgroundmise">
         <img src="/img/d3/tambang1.png" class="tambang1">
         <img src="/img/d3/tambang2.png" class="tambang2">
-        <img src="/img/d3/hitsumabushi.png" class="hitsumabushi">
-        <img src="/img/d3/kare.png" class="kare">
-        <img src="/img/d3/ramen.png" class="ramen">
-        <img src="/img/d3/fotohitsumabushi.png" class="fotohitsumabushi">
-        <img src="/img/fotokare.png" class="fotokare">
-        <img src="/img/d3/fotoramen.png" class="fotoramen">
         <div class="kuponbutton">
             <img src="" class="kupon">
         </div>
