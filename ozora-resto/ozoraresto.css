@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -9,21 +15,25 @@ body {
 }
 
 .top {
+    position: relative;
     height: 3000px;
     max-width: 990px;
     width: 100%;
     margin: 0 auto;
     background-image: url(/img/d3/background.png);
 }
+
 .omochi1 {
     position: relative;
     top: -125px;
-    left: 240px;   
+    left: 240px;
+    height: fit-content; 
 }
 .omochi2 {
     position: relative;
     top: -110px;
     left: 600px;
+    height: fit-content;
 }
 .daunkiriatas {
     position: relative;
@@ -81,6 +91,15 @@ body {
     left: 60px;
 }
 
+#menubutton {
+    position: relative;
+    left: 5px;
+}
+
+#buttonhitsumabushi {
+    margin-top: 100%;
+    padding-top: 25%;
+}
 .buttonhitsumabushi {
     position: relative;
     padding: 15px 25px;
@@ -136,14 +155,44 @@ body {
 }
 
 .tambang1 {
-    position: relative;
-    bottom: 1280px;
+    position: absolute;
+    top: 1110px;
 }
 .backgroundmise {
-    position: relative;
-    top: 40px;
+    position: absolute;
+    bottom: 580px;
+    background-attachment: fixed;
 }
 .tambang2 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    bottom: 560px;
+}
+
+.hitsumabushi {
+    position: absolute;
+    top: 1160px;
+}
+.fotohitsumabushi {
+    position: absolute;
+}
+
+
+.kupon {
+    position: absolute;
+    bottom: 350px;
+    height: fit-content;
+    max-width: 990px;
+    width: 70%;
+    left: 140px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.kupon:hover {background-color: #fff;}
+.kupon:active {
+    background-color: transparent;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
