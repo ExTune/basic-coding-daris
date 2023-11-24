@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9f2d3;
+}
+
+.outline {
+    background-image: url(/img/d3/backgroundsemua.png);
+    max-height: 3000px;
+    max-width: 990px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-shadow: 0px 0px 30px 30px rgba(250, 212, 87, 0.582);
+}
+
+
+.header {
+
+    .fotohitsumabushijudul {
+        position: relative;
+        left: 120px;
+    }
+    .fotokarejudul {
+        position: relative;
+        left: 170px;
+    }
+    .fotoramenjudul {
+        position: relative;
+        left: 220px;
+    }
+}
+
+.tigamenujudul {
+    position: absolute;
+    left: 80px;
+}
+.tombolsatu {
+    position: absolute;
+    top: 750px;
+    left: 40px;
+}
+.tomboldua {
+    position: absolute;
+    top: 750px;
+    left: 350px;
+}
+.tomboltiga {
+    position: absolute;
+    top: 750px;
+    left: 670px;
+}
+
+.textmenu1 {
+    position: relative;
+    top: 540px;
+    left: 365px;
+}
+.ketmenu1 {
+    position: absolute;
+    top: 1180px;
+    right: 150px;
+}
+.hitsumabushi1 {
+    position: relative;
+    top: 180px;
+}
+
+.textmenu2 {
+    position: relative;
+    top: 170px;
+    right: -25px;
+}
+.ketmenu2 {
+    position: absolute;
+    top: 1570px;
+    left: 70px;
+}
+.kare1 {
+    position: relative;
+    bottom: 190px;
+    left:  569px;
+}
