@@ -12,26 +12,28 @@ body {
     max-height: 3000px;
     max-width: 990px;
     width: 100%;
-    margin: 0 auto;
-    position: relative;
+    margin: 0;
+    position: absolute;
     box-shadow: 0px 0px 30px 30px rgba(250, 212, 87, 0.582);
 }
 
-
 .fotohitsumabushijudul {
-    position: relative;
+    position: absolute;
     left: 120px;
 }
 .fotokarejudul {
-    position: relative;
-    left: 170px;
+    position: absolute;
+    left: 394px;
 }
 .fotoramenjudul {
-    position: relative;
-    left: 220px;
+    position: absolute;
+    left: 660px;
 }
 
-
+.mizuhiki {
+    position: relative;
+    margin-top: 230px;
+}
 .tigamenujudul {
     position: absolute;
     left: 80px;
@@ -59,8 +61,10 @@ body {
 }
 .ketmenu1 {
     position: absolute;
-    top: 1180px;
-    right: 150px;
+    top: 1170px;
+    right: 85px;
+    font-size: 18px;
+    display: block;
 }
 .hitsumabushi1 {
     position: relative;
@@ -75,7 +79,9 @@ body {
 .ketmenu2 {
     position: absolute;
     top: 1600px;
-    left: 70px;
+    left: 80px;
+    font-size: 18px;
+    display: block;
 }
 .kare1 {
     position: relative;
@@ -89,8 +95,10 @@ body {
 }
 .ketmenu3 {
     position: absolute;
-    top: 2010px;
-    left: 410px;
+    top: 2014px;
+    left: 417px;
+    font-size: 18px;
+    display: block;
 }
 .ramen1 {
     position: relative;
