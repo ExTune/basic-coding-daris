@@ -7,15 +7,18 @@ body {
     background-color: #f9f2d3;
 }
 
-.outline {
+#outline {
     background-image: url(/img/d3/backgroundsemua.png);
     max-height: 3000px;
     max-width: 990px;
     width: 100%;
-    margin: 0;
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     box-shadow: 0px 0px 30px 30px rgba(250, 212, 87, 0.582);
 }
+
 
 .fotohitsumabushijudul {
     position: absolute;
@@ -38,6 +41,7 @@ body {
     position: absolute;
     left: 80px;
 }
+
 .tombolsatu {
     position: absolute;
     top: 750px;
@@ -111,8 +115,11 @@ body {
     left: 85px;
 }
 
-.footer {
+#footer {
     position: relative;
     bottom: 30px;
     left: 40px;
+}
+#menu {
+    display: block;
 }
