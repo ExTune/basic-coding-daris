@@ -9,8 +9,11 @@ img {
 }
 
 body {
+
   color: black;
 }
+
+
 
 .container {
   width: 100%;
@@ -25,6 +28,7 @@ body {
 }
 
 .sakuratop {
+  width: 100%;
   position: absolute;
   z-index: 100;
   padding-top: 57.5%;
@@ -35,12 +39,27 @@ body {
   position: relative;
   overflow: hidden;
 }
-
 .wrapper {
   width: 100%;
   display: flex;
   animation: slide 20s infinite;
 }
+.container3 {
+  margin-top: 10%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.wrapper1 {
+  width: 100%;
+  display: flex;
+  animation: slide 20s infinite;
+}
+
 
 @keyframes slide {
   0%{
@@ -101,7 +120,7 @@ body {
  border-style: solid;
  border-width: 10px;
  border-color: rgb(183, 220, 183);
- background-color: rgb(188, 223, 188);
+ background-color: rgb(154, 224, 188);
  position: relative;
  width: 100%;
  height: 68px;
@@ -110,26 +129,24 @@ body {
  border: 5px solid rgb(154, 224, 188);
 }
 .navigation ul {
-  display: flex;
+  display: block;
   list-style: none;
   justify-content: center;
-  padding: 0.80%;
   position: sticky;
-  margin-left: 10%;
+  background-color: #BBDEBB;
+  margin: auto;
 }
 .navigation li {
+  display: inline-block;
   font-size: 15px;
-  color: rgb(187, 222, 187);
   font-family: "小塚ゴシック Pr6N";
-  line-height: 1.8;
   text-align: center;
   padding: 0;
-  padding-right: 9%;
-  display: flex;
-
 }
 .navigation li a{
   text-decoration: none;
+  background-color: #BBDEBB;
+  display: inline-block;
 }
 .navigation ul li p{
   display: inline-block;
@@ -140,7 +157,37 @@ body {
 }
 
 .family {
-  width: 96%;
-  position: relative;
-  margin: auto;
+  width: 100%;
+  position: absolute;
+}
+
+.rambat img {
+  width: 100%;
+  max-width: 40px;
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+}
+.rambat1 img {
+  width: 100%;
+  max-width: 40px;
+  display: flex;
+  position: absolute;
+  z-index: 100;
+}
+.rambat2 img {
+  width: 100%;
+  max-width: 40px;
+  display: flex;
+  position: absolute;
+  z-index: 100;
+  display: inline-block;
+}
+.rambat3 img {
+  width: 100%;
+  max-width: 40px;
+  display: flex;
+  position: absolute;
+  z-index: 100;
 }
