@@ -160,9 +160,10 @@ body {
   margin-top: 10px;
   margin-left: 50px;
   margin-right: 50px;
+  padding: 2.5%;
 }
 
-.fmslider-conteiner {
+.fmslider-container {
   display: flex;
   justify-content: center;
 }
@@ -177,7 +178,6 @@ body {
   display: flex;
   overflow: auto;
   position: relative;
-  scroll-behavior: smooth;
 }
 .fmslide {
   display: flex;
@@ -239,3 +239,37 @@ a.slide_next,
   display: inline-block;
 
 }
+
+#child {
+  background-color: #BBDEBB;
+  max-width: fit-content;
+  width: 100%;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 2.5%;
+  
+}
+.childbutton {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#camping {
+  background-color: #BBDEBB;
+  
+  width: 100%;
+  max-width: fit-content;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: -50px;
+}
+.campslider-container {
+  display: flex;
+  justify-content: center;
+}
+
