@@ -1,96 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@charset "utf-8";
 
-:root {
-    --primaryTextcolor : #252525; /* Untuk title atau judul */
-    --secondaryTextColor :  black; /* untuk text biasa seperti paragraph */
-    --BackgroundColor : #dfdfdf; /* untuk pewarnaan background */
-}
-
+/* reset.css
+----------------------------------------- */
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    display: block;
 }
 
-h1,h2,h3,h4,h5,h6, strong {
-    color: var(--primaryTextcolor);
+html,body,h1,h2,h3,h4,h5,h6,p,div,
+ul,ol,li,dl,dt,dd,
+table,caption,th,td,
+form,button,label,address,blockquote,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border:0;
+	outline:0;
+	font-size: 100%;
+	font-weight: normal;
 }
-
-p {
-    font-size: 1rem;
-    line-height: 1.9rem;
+body {
+	line-height:1;
 }
-
-p, span, label, input, textarea, li {
-    color: var(--secondaryTextColor);
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
 }
-
-a {
-    text-decoration: none;
+nav ul {
+	list-style:none;
 }
-
-.main-container {
-    width: 1200px;
-    margin: 0 auto;
+hr {
+	display: none;
 }
-
-@media screen  and (max-width: 1200px) {
-    .main-container {
-        width: 90%;
-    }
+img,abbr {
+	border: none;
+	vertical-align: bottom;
 }
-
-/* Logo and Navigation Menu*/
-.nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 2rem 0;
+ul,ol,li {
+	list-style: none;
 }
-
-.nav ul {
-    list-style: none;
-    display: flex;
-    gap: 3rem;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
-.logo {
-    display: flex;
-    align-items: center;
-    font-weight: 700;
-    font-size: 1.2rem;
+th,td {
+	text-align: left;
 }
-
-.logo a {
-    color: var(--primaryTextcolor);
+/* clearfix */
+.cf {
+	zoom: 1;
 }
-
-nav ul li {
-    display: flex;
-    align-items: center;
+.cf:before, .cf:after {
+	content: "";
+	display: table;
 }
-
-nav ul li a {
-    color: var(--primaryTextcolor);
-}
-
-/* Burger */
-.burger div {
-    width: 25px;
-    height: 25px;
-    background-color: #000;
-    margin: 7px;
-    transition: all 0.3s;
-    z-index: 99;
-}
-
-.burger {
-    display: none;
-    z-index: 99;
-    position: fixed;
-    top: 33px;
-    right: 35px;
+.cf:after {
+	clear: both;
 }
